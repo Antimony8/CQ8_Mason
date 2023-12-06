@@ -6,6 +6,7 @@ The space complexity of the code is O(1). It doesn't use any data structures or 
 
 # Alternating Characters Recursive Definition
 Base Case: If the length of the string s is less than or equal to 1, return 0 (no deletions needed).
+
 Recursive Case: If the first character of the string is the same as the second, return 1 plus the result of the function called with the substring starting from the second character. Otherwise, return the result of the function called with the substring starting from the second character.
 
 # Alternating Characters Time Complexity
